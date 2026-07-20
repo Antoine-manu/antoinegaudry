@@ -1,0 +1,42 @@
+[
+  {
+    "id": "romain-triumvirat",
+    "author": "Romain",
+    "role": "Head of Operations chez Triumvirat",
+    "rating": 5,
+    "date": "2026-07-10",
+    "text": "Antoine a été un vrai plaisir à avoir sur le projet. Très compétent techniquement, réactif et force de proposition. Les échanges ont toujours été fluides et les développements livrés avec sérieux. Je retravaillerai avec lui sans hésiter.",
+    "projectSlug": null,
+    "source": "Malt"
+  },
+  {
+    "id": "tony-effinity",
+    "author": "Tony",
+    "role": "CTO chez Effinity",
+    "rating": 5,
+    "date": "2026-06-29",
+    "text": "Très bon travail - bonne communication. Antoine s'est investi dans le projet ce qui simplifie les choses pour nous.",
+    "projectSlug": "effinity-application-affiliation-shopify",
+    "source": "Malt"
+  },
+  {
+    "id": "eleonore-ab-creations",
+    "author": "Eléonore",
+    "role": "Responsable digital et communication chez AB Créations",
+    "rating": 5,
+    "date": "2026-06-03",
+    "text": "Je recommande vivement Antoine pour tout projet Shopify. Il a su m'aider immédiatement avec beaucoup de professionnalisme. Rapide, disponible et toujours à l'écoute, il a parfaitement compris mes besoins et apporté des solutions efficaces. Son expertise Shopify est un véritable atout et son accompagnement est rassurant du début à la fin. Merci Antoine pour votre réactivité et votre efficacité, je n'hésiterai pas à faire appel à vous à nouveau !",
+    "projectSlug": null,
+    "source": "Malt"
+  },
+  {
+    "id": "julie-tediber",
+    "author": "Julie",
+    "role": "Développeur Shopify POS chez Tediber",
+    "rating": 5,
+    "date": "2026-04-16",
+    "text": "Antoine a parfaitement réalisé le projet demandé, il s'est adapté au brief qui s'est affiné au fur et à mesure, il était disponible, réactif, en plus d'être sympathique. Nous le recommandons à 100% !",
+    "projectSlug": "tediber-application-shopify-pos",
+    "source": "Malt"
+  }
+]

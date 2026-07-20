@@ -1,0 +1,169 @@
+[
+  {
+    "slug": "kiabi-accompagnement-sites-internationaux",
+    "title": "Création et accompagnement continu des boutiques Shopify internationales de Kiabi",
+    "client": "Kiabi",
+    "year": 2026,
+    "category": "Création & accompagnement continu",
+    "role": "Développeur Shopify freelance",
+    "summary": "Création de boutiques Shopify de A à Z pour les marchés internationaux de Kiabi, et accompagnement technique continu.",
+    "coverImage": "/images/projects/kiabi_main.png",
+    "gallery": [
+      "/images/projects/kiabi_main.png",
+      "/images/projects/kiabi_img_1.png",
+      "/images/projects/kiabi_img_2.png",
+      "/images/projects/kiabi_img_3.png",
+      "/images/projects/kiabi_img_4.png"
+    ],
+    "context": [
+      "Kiabi opère plusieurs sites Shopify à l'international, avec des besoins réguliers d'évolutions, de corrections et de suivi technique sur chacun d'eux.",
+      "Au-delà du suivi technique, je conçois et lance également de nouvelles boutiques Shopify pour Kiabi de A à Z, pour accompagner l'ouverture de nouveaux marchés."
+    ],
+    "objectives": [
+      "Concevoir et lancer de nouvelles boutiques Shopify de A à Z pour de nouveaux marchés",
+      "Assurer un accompagnement technique continu sur les différents sites internationaux",
+      "Garantir la stabilité et la disponibilité des boutiques",
+      "Faire évoluer les sites au fil des besoins métier"
+    ],
+    "solution": [
+      "Création complète de boutiques Shopify pour Kiabi : architecture, configuration et mise en ligne, marché par marché.",
+      "Intervention récurrente en tant que développeur Shopify freelance sur les sites existants : suivi technique, corrections et évolutions.",
+      "À COMPLÉTER : ajoute ici le détail des marchés lancés ou des évolutions marquantes si tu veux les mettre en avant."
+    ],
+    "results": [],
+    "stack": ["Shopify Liquid", "Admin API (GraphQL)", "Multi-store international"],
+    "liveUrl": null,
+    "featured": true
+  },
+  {
+    "slug": "effinity-application-affiliation-shopify",
+    "title": "Application d'affiliation des ventes pour les boutiques Shopify d'Effinity",
+    "client": "Effinity",
+    "year": 2026,
+    "category": "App custom",
+    "role": "Développeur Shopify freelance",
+    "summary": "Création d'une application d'affiliation des ventes pour les boutiques Shopify d'Effinity.",
+    "coverImage": "/images/projects/effinity_main.png",
+    "gallery": ["/images/projects/effinity_main.png"],
+    "context": [
+      "Effinity avait besoin d'une application dédiée pour suivre et gérer l'affiliation des ventes sur des boutiques Shopify."
+    ],
+    "objectives": [
+      "Développer une application permettant de suivre les ventes affiliées sur Shopify",
+      "Fournir un outil fiable et exploitable par les équipes d'Effinity"
+    ],
+    "solution": [
+      "Développement d'une application custom connectée à l'Admin API Shopify pour gérer le suivi de l'affiliation des ventes.",
+      "À COMPLÉTER : ajoute ici l'architecture précise (webhooks, tableau de bord, règles d'attribution, etc.)."
+    ],
+    "results": [],
+    "stack": ["Admin API (GraphQL)", "Node.js", "Application custom"],
+    "liveUrl": null,
+    "featured": true
+  },
+  {
+    "slug": "tediber-application-shopify-pos",
+    "title": "Application Shopify POS pour Tediber",
+    "client": "Tediber",
+    "year": 2026,
+    "category": "App custom",
+    "role": "Développeur Shopify freelance",
+    "summary": "Développement d'une application pour Shopify POS chez Tediber.",
+    "coverImage": "/images/projects/tediber_main.png",
+    "gallery": ["/images/projects/tediber_main.png", "/images/projects/tediber_img_1.png"],
+    "context": [
+      "Tediber souhaitait une application dédiée pour son point de vente physique, connectée à Shopify POS, avec un brief qui s'est affiné au fil du projet."
+    ],
+    "objectives": [
+      "Développer une application Shopify POS adaptée aux besoins spécifiques de Tediber",
+      "S'adapter à un brief évolutif tout en tenant les délais"
+    ],
+    "solution": [
+      "Développement d'une application pour Shopify POS, avec des itérations régulières au fur et à mesure que le brief s'affinait.",
+      "À COMPLÉTER : ajoute ici les fonctionnalités clés de l'application POS livrée."
+    ],
+    "results": [],
+    "stack": ["Shopify POS", "Admin API (GraphQL)", "Application custom"],
+    "liveUrl": null,
+    "featured": true
+  },
+  {
+    "slug": "sacrecoeur-suivi-boutique-conversion",
+    "title": "Suivi continu et optimisation de la conversion pour Sacrecoeur",
+    "client": "Sacrecoeur",
+    "year": 2026,
+    "category": "Accompagnement continu",
+    "role": "Développeur Shopify freelance",
+    "summary": "Suivi continu de la boutique Shopify de Sacrecoeur et optimisation de la conversion.",
+    "coverImage": "/images/projects/sacrecoeur_main.png",
+    "gallery": ["/images/projects/sacrecoeur_main.png", "/images/projects/sacrecoeur_img_1.png", "/images/projects/sacrecoeur_img_2.png"],
+    "context": [
+      "Suivi régulier de la boutique Shopify de Sacrecoeur, avec un focus sur l'optimisation de la conversion."
+    ],
+    "objectives": [
+      "Assurer un suivi technique continu de la boutique",
+      "Optimiser le taux de conversion et l'expérience d'achat"
+    ],
+    "solution": [
+      "Intervention récurrente sur la boutique : suivi technique et actions d'optimisation de la conversion.",
+      "À COMPLÉTER : ajoute ici les actions d'optimisation menées (tunnel d'achat, fiches produit, etc.)."
+    ],
+    "results": [],
+    "stack": ["Shopify Liquid", "Optimisation de la conversion"],
+    "liveUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "marketproit-theme-sur-mesure",
+    "title": "Thème Shopify sur mesure et suivi continu pour MarketproIT",
+    "client": "MarketproIT",
+    "year": 2026,
+    "category": "Thème sur mesure",
+    "role": "Développeur Shopify freelance",
+    "summary": "Création d'un thème Shopify sur mesure pour MarketproIT et suivi continu de la boutique.",
+    "coverImage": "/images/projects/marketproit_main.png",
+    "gallery": ["/images/projects/marketproit_main.png", "/images/projects/marketproit_img_1.png"],
+    "context": [
+      "MarketproIT souhaitait un thème Shopify sur mesure ainsi qu'un accompagnement dans la durée sur sa boutique."
+    ],
+    "objectives": [
+      "Concevoir et développer un thème Shopify sur mesure",
+      "Assurer un suivi continu de la boutique après la mise en ligne"
+    ],
+    "solution": [
+      "Développement d'un thème Liquid sur mesure, puis suivi continu de la boutique (évolutions, corrections).",
+      "À COMPLÉTER : ajoute ici les spécificités du thème développé."
+    ],
+    "results": [],
+    "stack": ["Shopify Liquid", "Theme Architecture (OS 2.0)"],
+    "liveUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "apoticaria-optimisation-seo-performance",
+    "title": "Optimisation page produit, performance et SEO pour Apoticaria",
+    "client": "Apoticaria",
+    "year": 2026,
+    "category": "Performance & SEO",
+    "role": "Développeur Shopify freelance",
+    "summary": "Optimisation de la page produit, des performances et du référencement du site Apoticaria.",
+    "coverImage": "/images/projects/apoticaria_main.png",
+    "gallery": ["/images/projects/apoticaria_main.png", "/images/projects/apoticaria_img_1.png"],
+    "context": [
+      "Apoticaria souhaitait améliorer la performance de son site et l'expérience de sa page produit, avec un enjeu SEO."
+    ],
+    "objectives": [
+      "Optimiser la page produit",
+      "Améliorer les performances techniques du site",
+      "Travailler le référencement naturel (SEO)"
+    ],
+    "solution": [
+      "Optimisation de la page produit et actions techniques sur la performance et le SEO du site.",
+      "À COMPLÉTER : ajoute ici les leviers SEO/performance activés (Core Web Vitals, structured data, etc.)."
+    ],
+    "results": [],
+    "stack": ["Performance web", "SEO technique", "Shopify Liquid"],
+    "liveUrl": null,
+    "featured": false
+  }
+]
