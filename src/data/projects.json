@@ -25,8 +25,7 @@
     ],
     "solution": [
       "Création complète de boutiques Shopify pour Kiabi : architecture, configuration et mise en ligne, marché par marché.",
-      "Intervention récurrente en tant que développeur Shopify freelance sur les sites existants : suivi technique, corrections et évolutions.",
-      "À COMPLÉTER : ajoute ici le détail des marchés lancés ou des évolutions marquantes si tu veux les mettre en avant."
+      "Intervention récurrente en tant que développeur Shopify freelance sur les sites existants : suivi technique, corrections et évolutions."
     ],
     "results": [],
     "stack": ["Shopify Liquid", "Admin API (GraphQL)", "Multi-store international"],
@@ -51,8 +50,7 @@
       "Fournir un outil fiable et exploitable par les équipes d'Effinity"
     ],
     "solution": [
-      "Développement d'une application custom connectée à l'Admin API Shopify pour gérer le suivi de l'affiliation des ventes.",
-      "À COMPLÉTER : ajoute ici l'architecture précise (webhooks, tableau de bord, règles d'attribution, etc.)."
+      "Développement d'une application custom connectée à l'Admin API Shopify pour gérer le suivi de l'affiliation des ventes."
     ],
     "results": [],
     "stack": ["Admin API (GraphQL)", "Node.js", "Application custom"],
@@ -77,8 +75,7 @@
       "S'adapter à un brief évolutif tout en tenant les délais"
     ],
     "solution": [
-      "Développement d'une application pour Shopify POS, avec des itérations régulières au fur et à mesure que le brief s'affinait.",
-      "À COMPLÉTER : ajoute ici les fonctionnalités clés de l'application POS livrée."
+      "Développement d'une application pour Shopify POS, avec des itérations régulières au fur et à mesure que le brief s'affinait."
     ],
     "results": [],
     "stack": ["Shopify POS", "Admin API (GraphQL)", "Application custom"],
@@ -103,8 +100,7 @@
       "Optimiser le taux de conversion et l'expérience d'achat"
     ],
     "solution": [
-      "Intervention récurrente sur la boutique : suivi technique et actions d'optimisation de la conversion.",
-      "À COMPLÉTER : ajoute ici les actions d'optimisation menées (tunnel d'achat, fiches produit, etc.)."
+      "Intervention récurrente sur la boutique : suivi technique et actions d'optimisation de la conversion."
     ],
     "results": [],
     "stack": ["Shopify Liquid", "Optimisation de la conversion"],
@@ -129,8 +125,7 @@
       "Assurer un suivi continu de la boutique après la mise en ligne"
     ],
     "solution": [
-      "Développement d'un thème Liquid sur mesure, puis suivi continu de la boutique (évolutions, corrections).",
-      "À COMPLÉTER : ajoute ici les spécificités du thème développé."
+      "Développement d'un thème Liquid sur mesure, puis suivi continu de la boutique (évolutions, corrections)."
     ],
     "results": [],
     "stack": ["Shopify Liquid", "Theme Architecture (OS 2.0)"],
@@ -156,8 +151,7 @@
       "Travailler le référencement naturel (SEO)"
     ],
     "solution": [
-      "Optimisation de la page produit et actions techniques sur la performance et le SEO du site.",
-      "À COMPLÉTER : ajoute ici les leviers SEO/performance activés (Core Web Vitals, structured data, etc.)."
+      "Optimisation de la page produit et actions techniques sur la performance et le SEO du site."
     ],
     "results": [],
     "stack": ["Performance web", "SEO technique", "Shopify Liquid"],

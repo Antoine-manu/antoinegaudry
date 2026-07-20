@@ -1,6 +1,6 @@
 export const site = {
   // À REMPLACER par le nom de domaine définitif une fois branché sur le VPS.
-  url: "https://antoinegaudry.fr",
+  url: "https://antoinegaudry.com",
   name: "Antoine Gaudry",
   avatar: "/images/antoine-gaudry.png",
   role: "Développeur & Expert Shopify freelance",
