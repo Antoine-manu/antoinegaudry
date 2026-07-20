@@ -1,19 +1,47 @@
 import type { Metadata } from "next";
+import { site } from "@/data/site";
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
 import { ProjectCard } from "@/components/project-card";
+import { JsonLd } from "@/components/json-ld";
 import { getAllProjects } from "@/lib/projects";
 
+const description =
+  "Sélection de missions Shopify réalisées en freelance : boutiques, migrations, apps custom et intégrations.";
+
 export const metadata: Metadata = {
-  title: "Projets — Antoine Gaudry",
-  description: "Sélection de missions Shopify réalisées en freelance : boutiques, migrations, apps custom et intégrations.",
+  title: "Projets",
+  description,
+  alternates: {
+    canonical: `${site.url}/projets`,
+  },
+  openGraph: {
+    url: `${site.url}/projets`,
+    title: `Projets — ${site.name}`,
+    description,
+  },
+  twitter: {
+    card: "summary",
+    title: `Projets — ${site.name}`,
+    description,
+  },
 };
 
 export default function ProjectsPage() {
   const projects = getAllProjects();
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
+      { "@type": "ListItem", position: 2, name: "Projets", item: `${site.url}/projets` },
+    ],
+  };
+
   return (
     <div className="py-14 sm:py-20 lg:py-28">
+      <JsonLd data={breadcrumbJsonLd} />
       <Container>
         <SectionHeading
           eyebrow="Réalisations"

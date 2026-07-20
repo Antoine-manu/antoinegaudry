@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { site } from "@/data/site";
 import { Container } from "@/components/container";
 import { ContactCta } from "@/components/contact-cta";
+import { JsonLd } from "@/components/json-ld";
+import { HeroLightboxImage, GalleryLightbox } from "@/components/image-lightbox";
 import { getAllProjects, getProjectBySlug, getAdjacentProjects } from "@/lib/projects";
 import { getReviewsForProject } from "@/lib/reviews";
 import { StarRating } from "@/components/star-rating";
@@ -23,10 +25,23 @@ export async function generateMetadata({
   const project = getProjectBySlug(slug);
   if (!project) return {};
 
+  const url = `${site.url}/projets/${project.slug}`;
+
   return {
-    title: `${project.title} — Antoine Gaudry`,
+    title: project.title,
     description: project.summary,
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
+      type: "article",
+      url,
+      title: project.title,
+      description: project.summary,
+      images: [{ url: project.coverImage, alt: project.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
       title: project.title,
       description: project.summary,
       images: [project.coverImage],
@@ -50,8 +65,24 @@ export default async function ProjectPage({
   const relatedReviews = getReviewsForProject(slug);
   const gallery = project.gallery.filter((src) => src !== project.coverImage);
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
+      { "@type": "ListItem", position: 2, name: "Projets", item: `${site.url}/projets` },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: project.title,
+        item: `${site.url}/projets/${project.slug}`,
+      },
+    ],
+  };
+
   return (
     <div className="pb-14 sm:pb-24">
+      <JsonLd data={breadcrumbJsonLd} />
       <div className="border-b border-border/70 py-10 sm:py-16 lg:py-20">
         <Container>
           <Link href="/projets" className="text-sm font-semibold text-accent hover:underline">
@@ -99,9 +130,7 @@ export default async function ProjectPage({
       </div>
 
       <Container className="mt-10 sm:mt-16">
-        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl bg-surface">
-          <Image src={project.coverImage} alt={project.title} fill className="object-contain" priority />
-        </div>
+        <HeroLightboxImage src={project.coverImage} alt={project.title} />
       </Container>
 
       <Container className="mt-10 grid gap-16 sm:mt-16 lg:grid-cols-[1.6fr_1fr]">
@@ -139,13 +168,7 @@ export default async function ProjectPage({
           {gallery.length > 0 ? (
             <section>
               <h2 className="text-xl font-semibold text-foreground">Galerie</h2>
-              <div className="mt-4 grid gap-4 sm:grid-cols-2">
-                {gallery.map((src) => (
-                  <div key={src} className="relative aspect-[16/9] overflow-hidden rounded-xl bg-surface">
-                    <Image src={src} alt={project.title} fill className="object-contain" />
-                  </div>
-                ))}
-              </div>
+              <GalleryLightbox images={gallery} alt={project.title} />
             </section>
           ) : null}
 

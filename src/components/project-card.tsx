@@ -13,7 +13,7 @@ export function ProjectCard({ project }: { project: Project }) {
           src={project.coverImage}
           alt={project.title}
           fill
-          className="object-contain transition-transform duration-300 group-hover:scale-105"
+          className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
         />
       </div>
       <div className="flex flex-1 flex-col p-6">

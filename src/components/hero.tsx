@@ -52,13 +52,12 @@ export function Hero() {
           </Link>
         </div>
 
-        <dl className="mt-10 grid grid-cols-2 gap-8 sm:mt-16 sm:grid-cols-4">
+        {/* Masqué visuellement mais gardé dans le DOM pour le SEO / les lecteurs d'écran */}
+        <dl className="sr-only">
           {site.stats.map((stat) => (
             <div key={stat.label}>
-              <dt className="text-sm text-muted">{stat.label}</dt>
-              <dd className="mt-1 text-2xl font-semibold text-foreground">
-                {stat.value}
-              </dd>
+              <dt>{stat.label}</dt>
+              <dd>{stat.value}</dd>
             </div>
           ))}
         </dl>

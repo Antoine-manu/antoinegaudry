@@ -42,7 +42,21 @@
       "Bash(node verify-images.mjs)",
       "Bash(sips -g pixelWidth -g pixelHeight public/images/antoine-gaudry.png)",
       "Bash(sips -z 256 256 public/images/antoine-gaudry.png --out src/app/icon.png)",
-      "Bash(node verify-header.mjs)"
+      "Bash(node verify-header.mjs)",
+      "Bash(find /Users/admin/Documents/Work/Braveline/Antoine/node_modules/next/dist/docs -iname *sitemap* -o -iname *robots*)",
+      "Bash(node verify-seo.mjs)",
+      "Bash(node check-centering.mjs)",
+      "Bash(node check-centering2.mjs)",
+      "Bash(node check-centering3.mjs)",
+      "Bash(node check-avatars.mjs)",
+      "Bash(grep -A6 \"Image$\\\\|<Image\" src/components/hero.tsx)",
+      "Bash(node check-effinity-card.mjs)",
+      "Bash(node verify-final-images.mjs)",
+      "Bash(node verify-hero-stats.mjs)",
+      "Bash(node verify-lightbox.mjs)",
+      "Bash(curl -sf http://localhost:3000/projets/kiabi-accompagnement-sites-internationaux -o /tmp/kiabi_page.html -w \"%{http_code}\\\\n\")",
+      "Bash(timeout 25 node verify-lightbox.mjs)",
+      "Bash(echo \"EXIT:$?\")"
     ]
   }
 }

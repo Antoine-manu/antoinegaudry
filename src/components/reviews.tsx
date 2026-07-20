@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/section-heading";
 import { StarRating } from "@/components/star-rating";
 import { ScrollRow, ScrollRowItem } from "@/components/scroll-row";
 import { ReviewQuote } from "@/components/review-quote";
+import { JsonLd } from "@/components/json-ld";
 import { getAllReviews, getAverageRating } from "@/lib/reviews";
 
 function formatReviewDate(date: string) {
@@ -17,8 +18,39 @@ export function Reviews() {
   const reviews = getAllReviews();
   const average = getAverageRating();
 
+  const reviewsJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Développement Shopify freelance",
+    provider: {
+      "@type": "Person",
+      name: site.name,
+      url: site.url,
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: average,
+      reviewCount: reviews.length,
+      bestRating: 5,
+      worstRating: 1,
+    },
+    review: reviews.map((review) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: review.author },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: review.rating,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      reviewBody: review.text,
+      datePublished: review.date,
+    })),
+  };
+
   return (
     <section id="avis" className="border-t border-border/70 bg-surface/60 py-14 sm:py-20 lg:py-28">
+      <JsonLd data={reviewsJsonLd} />
       <Container>
         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading
